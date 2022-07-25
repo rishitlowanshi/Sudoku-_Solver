@@ -24,7 +24,7 @@ def possible(x, y, n):
             return False
 
     for i in range(0, 9):
-        if grid[y][i] == n and i != x: # Checks for number (n) in X columns
+        if grid[y][i] == n and i != x: # Checks for number (n) in Y columns
             return False
 
     x0 = (x // 3) * 3
